@@ -1,0 +1,153 @@
+*{
+	box-sizing:border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  background-color: #404146;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+header .container{
+  display: flex;  
+}
+
+.header-left{
+  color:white;
+  flex:wrap;
+  padding-right: 20px;
+}
+
+.header-left h2{
+  letter-spacing: 10px;
+}
+
+.fa-bars{
+  color: #fff;
+  font-size: 35px;
+  z-index: 10001;
+  cursor: pointer;
+}
+
+.header-menu{
+  flex:wrap;
+}
+
+.header-menu a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-menu a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+main{
+  text-align: center;
+  padding-top: 95px;
+}
+
+.top-wrapper img{
+  width:25%;
+}
+
+.top-wrapper h1{
+  font-size: 100px;
+  color:#404146;
+  margin-bottom: 0;
+}
+
+.titik {
+  color:#f1d00e;
+}
+
+.top-wrapper h3{
+  font-weight:100;
+  font-size:50px;
+}
+
+.tentang-wrapper, .hubungi-wrapper {
+  padding: 50px 100px;
+  background-color: #f4f4f4;
+}
+
+.proyek-wrapper {
+  padding : 50px 0;
+}
+
+.proyek-icon{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon-img{
+  flex:auto;
+  margin: 50px;
+}
+
+.icon-img img{
+  width:100%;
+}
+
+.hubungi-wrapper h3{
+  margin-bottom: 30px;
+}
+
+.email, .massage{
+  margin: 20px auto;
+}
+
+.kotak-input{
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+.btn-kirim{
+  margin: 0 auto;
+}
+
+.kirim{
+  padding: 10px 100px;
+  background-color: #f7e989; 
+  border :0;
+  border-radius: 10px;
+}
+
+.kirim:hover{
+  cursor: pointer;
+}
+
+footer{
+  background-color: #7c7d82;
+}
+
+footer .container{
+  display: flex;
+  justify-content: space-between;
+  color :#f4f4f4;
+  padding: 10px;
+}
+
+.side-menu ul li {
+  list-style-type: none;
+  padding: 5px 0;
+}

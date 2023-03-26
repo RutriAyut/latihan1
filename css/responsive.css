@@ -1,0 +1,55 @@
+/* Untuk Tablet */
+@media all and (max-width: 1080px) {
+    header{
+        padding: 17px 3%;
+        transition: .2s;
+    }
+    .kotak-input{
+        width: 100%;
+    }
+}
+
+@media (max-width: 670px){
+    .menu-icon{
+        display: block;
+    }
+    .header-left h2{
+        font-size: 20px;
+    }
+    .header-menu{
+        display: none;
+    }
+    .container{
+        margin: 0;
+    }
+    .top-wrapper h1{
+        text-align: left;
+        font-size: 25px;
+    }
+    .top-wrapper h3{
+        font-size: 15px;
+    }
+    .top-wrapper img{
+        width: 50%;
+    }
+    .tentang-wrapper h3, p{
+        text-align: justify;
+        padding: 10px;
+        margin: 0;
+    }
+    .proyek-icon{
+        flex-direction: column;
+    }
+    .icon-img{
+        margin: 15px 20px;
+    }
+    .tentang-wrapper, .hubungi-wrapper {
+        padding: 25px 3px;
+    }
+    footer .container{
+        flex-direction: column;
+    }
+    .kirim{
+        width: 100%;
+    }
+}
