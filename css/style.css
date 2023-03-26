@@ -35,6 +35,12 @@ header .container{
   letter-spacing: 10px;
 }
 
+.menu-icon{
+  text-align: end;
+  padding-top: 10px;
+  display:none;
+}
+
 .fa-bars{
   color: #fff;
   font-size: 35px;
